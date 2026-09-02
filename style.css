@@ -1,0 +1,754 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #f5f7fa;
+
+    color: #1e293b;
+}
+
+
+/* MENU */
+
+header {
+
+    height: 75px;
+
+    background-color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 0 8%;
+
+}
+
+
+.logo {
+
+    font-size: 28px;
+
+    font-weight: bold;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+}
+
+.logo-icon {
+
+    height: 42px;
+
+    width: auto;
+
+}
+
+
+.logo span {
+
+    color: #d4af37;
+
+}
+
+
+nav {
+
+    display: flex;
+
+    gap: 30px;
+
+}
+
+
+nav a {
+
+    text-decoration: none;
+
+    color: #475569;
+
+    font-weight: bold;
+
+}
+
+
+nav a:hover {
+
+    color: #d4af37;
+
+}
+
+
+
+/* INÍCIO */
+
+.hero {
+
+    height: 600px;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 0 10%;
+
+
+    background:
+
+        linear-gradient(
+            90deg,
+            rgba(12, 46, 74, 0.9),
+            rgba(12, 46, 74, 0.4)
+        ),
+
+        url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e")
+
+        center / cover;
+
+}
+
+
+.hero-text {
+
+    max-width: 650px;
+
+    color: white;
+
+}
+
+
+.subtitle {
+
+    color: #d4af37;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.hero h1 {
+
+    font-size: 60px;
+
+    line-height: 1.05;
+
+    margin-bottom: 25px;
+
+}
+
+
+.hero h1 span {
+
+    color: #e3c968;
+
+}
+
+
+.hero-text > p {
+
+    font-size: 18px;
+
+    line-height: 1.6;
+
+    margin-bottom: 30px;
+
+}
+
+
+.main-button {
+
+    display: inline-block;
+
+    background-color: #d4af37;
+
+    color: #0c2e4a;
+
+    padding: 14px 25px;
+
+    border-radius: 8px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+
+
+/* DESTINOS */
+
+#destinos {
+
+    padding: 80px 8%;
+
+}
+
+
+.section-title {
+
+    text-align: center;
+
+    margin-bottom: 50px;
+
+    max-width: 1200px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+}
+
+
+.section-title h2 {
+
+    font-size: 40px;
+
+    color: #0c2e4a;
+
+}
+
+
+.destinos {
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+
+}
+
+
+.card {
+
+    background: white;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+
+}
+
+
+.card-image {
+
+    height: 220px;
+
+    background-size: cover;
+
+    background-position: center;
+
+}
+
+
+.aparecida {
+
+    background-image:
+
+    url("https://images.unsplash.com/photo-1646684686667-674648a0f529");
+
+}
+
+
+.paraty {
+
+    background-image:
+
+    url("https://images.unsplash.com/photo-1562165851-1a87c2b76576");
+
+}
+
+
+.foz {
+
+    background-image:
+
+    url("https://images.unsplash.com/photo-1524977433833-bccfc612b232");
+
+}
+
+
+.card-content {
+
+    padding: 25px;
+
+}
+
+
+.card-content h3 {
+
+    font-size: 22px;
+
+    margin-bottom: 10px;
+
+    color: #0c2e4a;
+
+}
+
+
+.card-content p {
+
+    color: #64748b;
+
+    line-height: 1.5;
+
+    margin-bottom: 20px;
+
+    min-height: 48px;
+
+}
+
+
+/* BLOCO DE DATAS E PREÇO */
+
+.price-box {
+
+    background-color: #0c2e4a;
+
+    border-radius: 10px;
+
+    padding: 15px 18px;
+
+    margin-bottom: 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 15px;
+
+}
+
+
+.price-box .dates {
+
+    color: #bcd4e6;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+
+}
+
+
+.price-box .price {
+
+    text-align: right;
+
+}
+
+
+.price-box .price span {
+
+    display: block;
+
+    color: #8fb3cc;
+
+    font-size: 12px;
+
+}
+
+
+.price-box .price strong {
+
+    color: #d4af37;
+
+    font-size: 20px;
+
+}
+
+
+.card-content button {
+
+    border: none;
+
+    background: #faf3e0;
+
+    color: #a67c00;
+
+    padding: 10px 18px;
+
+    border-radius: 7px;
+
+    cursor: pointer;
+
+    font-weight: bold;
+
+}
+
+
+
+/* CONTATO */
+
+#contato {
+
+    padding: 80px 10%;
+
+    background-color: #e2e8f0;
+
+}
+
+
+.contact-container {
+
+    max-width: 1000px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 70px;
+
+    align-items: center;
+
+}
+
+
+.contact-container h2 {
+
+    font-size: 40px;
+
+    margin-bottom: 20px;
+
+    color: #0c2e4a;
+
+}
+
+
+.contact-text p {
+
+    color: #64748b;
+
+    line-height: 1.6;
+
+}
+
+
+form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+
+}
+
+
+input,
+textarea {
+
+    width: 100%;
+
+    padding: 15px;
+
+    border: 1px solid #cbd5e1;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+
+}
+
+
+textarea {
+
+    height: 140px;
+
+    resize: none;
+
+}
+
+
+form button {
+
+    border: none;
+
+    padding: 14px;
+
+    border-radius: 8px;
+
+    background-color: #d4af37;
+
+    color: #0c2e4a;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+}
+
+
+
+/* SOBRE */
+
+.sobre-hero {
+
+    padding: 100px 10%;
+
+    color: white;
+
+    min-height: 400px;
+
+    display: flex;
+
+    align-items: center;
+
+    background:
+
+        linear-gradient(
+            90deg,
+            rgba(12, 46, 74, 0.85),
+            rgba(12, 46, 74, 0.3)
+        ),
+
+        url("https://images.unsplash.com/photo-1721068302577-91bc3883c19a")
+
+        center / cover;
+
+}
+
+.sobre-hero-text {
+
+    max-width: 550px;
+
+}
+
+.sobre-hero .subtitle {
+
+    color: #d4af37;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 15px;
+
+}
+
+.sobre-hero h1 {
+
+    font-size: 40px;
+
+    line-height: 1.2;
+
+    margin-bottom: 15px;
+
+}
+
+.sobre-hero h1 span {
+
+    color: #d4af37;
+
+}
+
+.sobre-hero p {
+
+    font-size: 16px;
+
+    line-height: 1.7;
+
+    color: #e2e8f0;
+
+}
+
+.sobre-conteudo {
+
+    max-width: 800px;
+
+    margin: 0 auto;
+
+    padding: 80px 8%;
+
+}
+
+.sobre-conteudo h2 {
+
+    color: #0c2e4a;
+
+    font-size: 28px;
+
+    margin-bottom: 15px;
+
+}
+
+.sobre-conteudo p {
+
+    color: #64748b;
+
+    line-height: 1.7;
+
+    margin-bottom: 30px;
+
+}
+
+
+/* QUEM SOMOS */
+
+.quem-somos {
+
+    padding: 80px 8%;
+
+}
+
+.quem-somos-grid {
+
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 60px;
+
+    align-items: center;
+
+}
+
+.quem-somos-grid img {
+
+    width: 100%;
+
+    border-radius: 15px;
+
+}
+
+.quem-somos-texto h2 {
+
+    color: #0c2e4a;
+
+    font-size: 28px;
+
+    margin-bottom: 20px;
+
+}
+
+.quem-somos-texto p {
+
+    color: #64748b;
+
+    line-height: 1.7;
+
+    margin-bottom: 15px;
+}
+
+
+/* NOSSOS VALORES */
+
+.valores {
+
+    background-color: #f5f7fa;
+
+    padding: 80px 8%;
+
+}
+
+.valores-grid {
+
+    max-width: 1000px;
+
+    margin: 0 auto;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 25px;
+
+}
+
+.valor-card {
+
+    background: white;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+
+    padding: 35px 25px;
+
+    text-align: center;
+
+    width: 260px;
+
+}
+
+.valor-card .icone {
+
+    font-size: 32px;
+
+    margin-bottom: 15px;
+
+}
+
+.valor-card h3 {
+
+    color: #0c2e4a;
+
+    font-size: 18px;
+
+    margin-bottom: 10px;
+
+}
+
+.valor-card p {
+
+    color: #64748b;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+
+}
+
+
+/* RODAPÉ */
+
+footer {
+
+    height: 60px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background-color: #0c2e4a;
+
+    color: #94a3b8;
+
+    font-size: 14px;
+
+}
