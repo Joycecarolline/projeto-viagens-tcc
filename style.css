@@ -13,9 +13,6 @@ body {
     color: #1e293b;
 }
 
-
-/* MENU */
-
 header {
 
     height: 75px;
@@ -88,10 +85,6 @@ nav a:hover {
     color: #d4af37;
 
 }
-
-
-
-/* INÍCIO */
 
 .hero {
 
@@ -189,9 +182,6 @@ nav a:hover {
 }
 
 
-
-/* DESTINOS */
-
 #destinos {
 
     padding: 80px 8%;
@@ -221,7 +211,6 @@ nav a:hover {
     color: #0c2e4a;
 
 }
-
 
 .destinos {
 
@@ -320,8 +309,6 @@ nav a:hover {
 }
 
 
-/* BLOCO DE DATAS E PREÇO */
-
 .price-box {
 
     background-color: #0c2e4a;
@@ -398,10 +385,6 @@ nav a:hover {
     font-weight: bold;
 
 }
-
-
-
-/* CONTATO */
 
 #contato {
 
@@ -505,10 +488,6 @@ form button {
 
 }
 
-
-
-/* SOBRE */
-
 .sobre-hero {
 
     padding: 100px 10%;
@@ -529,8 +508,7 @@ form button {
             rgba(12, 46, 74, 0.3)
         ),
 
-        url("https://images.unsplash.com/photo-1721068302577-91bc3883c19a")
-
+        url(imagens/FernandodeNoronha.png)
         center / cover;
 
 }
@@ -609,9 +587,6 @@ form button {
 
 }
 
-
-/* QUEM SOMOS */
-
 .quem-somos {
 
     padding: 80px 8%;
@@ -660,9 +635,6 @@ form button {
 
     margin-bottom: 15px;
 }
-
-
-/* NOSSOS VALORES */
 
 .valores {
 
@@ -731,9 +703,6 @@ form button {
     line-height: 1.6;
 
 }
-
-
-/* RODAPÉ */
 
 footer {
 
