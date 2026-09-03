@@ -465,7 +465,12 @@ textarea {
 
     resize: none;
 
+    font-family: Courier, monospace, sans-serif;
+
 }
+
+
+
 
 
 form button {
