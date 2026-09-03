@@ -7,383 +7,242 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-
     background-color: #f5f7fa;
-
     color: #1e293b;
 }
 
 header {
-
     height: 75px;
-
     background-color: white;
-
     display: flex;
-
     align-items: center;
-
     justify-content: space-between;
-
     padding: 0 8%;
-
 }
 
 
 .logo {
-
     font-size: 28px;
-
     font-weight: bold;
-
     display: flex;
-
     align-items: center;
-
     gap: 8px;
-
 }
 
 .logo-icon {
-
     height: 42px;
-
     width: auto;
-
 }
 
 
 .logo span {
-
     color: #d4af37;
-
 }
 
 
 nav {
-
     display: flex;
-
     gap: 30px;
-
 }
 
 
 nav a {
-
     text-decoration: none;
-
     color: #475569;
-
     font-weight: bold;
-
 }
 
 
 nav a:hover {
-
     color: #d4af37;
-
 }
 
 .hero {
-
     height: 600px;
-
     display: flex;
-
     align-items: center;
-
     padding: 0 10%;
-
-
     background:
-
         linear-gradient(
             90deg,
             rgba(12, 46, 74, 0.9),
             rgba(12, 46, 74, 0.4)
         ),
-
         url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e")
-
         center / cover;
-
 }
 
 
 .hero-text {
-
     max-width: 650px;
-
     color: white;
-
 }
 
 
 .subtitle {
-
     color: #d4af37;
-
     font-weight: bold;
-
     letter-spacing: 2px;
-
     margin-bottom: 15px;
-
 }
 
 
 .hero h1 {
-
     font-size: 60px;
-
     line-height: 1.05;
-
     margin-bottom: 25px;
-
 }
 
 
 .hero h1 span {
-
     color: #e3c968;
-
 }
 
 
 .hero-text > p {
-
     font-size: 18px;
-
     line-height: 1.6;
-
     margin-bottom: 30px;
-
 }
 
 
 .main-button {
-
     display: inline-block;
-
     background-color: #d4af37;
-
     color: #0c2e4a;
-
     padding: 14px 25px;
-
     border-radius: 8px;
-
     text-decoration: none;
-
     font-weight: bold;
-
 }
 
 
 #destinos {
-
     padding: 80px 8%;
-
 }
 
 
 .section-title {
-
     text-align: center;
-
     margin-bottom: 50px;
-
     max-width: 1200px;
-
     margin-left: auto;
-
     margin-right: auto;
-
 }
 
 
 .section-title h2 {
-
     font-size: 40px;
-
     color: #0c2e4a;
-
 }
 
 .destinos {
-
     max-width: 1200px;
-
     margin: 0 auto;
-
     display: grid;
-
     grid-template-columns: repeat(3, 1fr);
-
     gap: 25px;
-
 }
 
 
 .card {
-
     background: white;
-
     border-radius: 15px;
-
     overflow: hidden;
-
     box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-
 }
 
 
 .card-image {
-
     height: 220px;
-
     background-size: cover;
-
     background-position: center;
-
 }
 
 
 .aparecida {
-
     background-image:
-
     url("https://images.unsplash.com/photo-1646684686667-674648a0f529");
-
 }
 
 
 .paraty {
-
     background-image:
-
     url("https://images.unsplash.com/photo-1562165851-1a87c2b76576");
-
 }
 
 
 .foz {
-
     background-image:
-
     url("https://images.unsplash.com/photo-1524977433833-bccfc612b232");
-
 }
 
 
 .card-content {
-
     padding: 25px;
-
 }
 
 
 .card-content h3 {
-
     font-size: 22px;
-
     margin-bottom: 10px;
-
     color: #0c2e4a;
-
 }
 
 
 .card-content p {
-
     color: #64748b;
-
     line-height: 1.5;
-
     margin-bottom: 20px;
-
     min-height: 48px;
-
 }
 
 
 .price-box {
-
     background-color: #0c2e4a;
-
     border-radius: 10px;
-
     padding: 15px 18px;
-
     margin-bottom: 20px;
-
     display: flex;
-
     align-items: center;
-
     justify-content: space-between;
-
     gap: 15px;
-
 }
 
 
 .price-box .dates {
-
     color: #bcd4e6;
-
     font-size: 13px;
-
     line-height: 1.6;
-
 }
 
 
 .price-box .price {
-
     text-align: right;
-
 }
 
 
 .price-box .price span {
-
     display: block;
-
     color: #8fb3cc;
-
     font-size: 12px;
-
 }
 
 
 .price-box .price strong {
-
     color: #d4af37;
-
     font-size: 20px;
-
 }
 
 
 .card-content button {
-
     border: none;
-
     background: #faf3e0;
-
     color: #a67c00;
-
     padding: 10px 18px;
-
     border-radius: 7px;
-
     cursor: pointer;
-
     font-weight: bold;
-
 }
 
 #contato {
